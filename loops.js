@@ -16,6 +16,7 @@ function whileLoop(n) {
   return 'done';
 }
 
+/*
 function maybeTrue() {
   return Math.random() >= 0.5
 }
@@ -26,6 +27,7 @@ function doWhileLoop(array) {
   } while((maybeTrue() && array.length()>0);
 return array;
 }
+*/
 
 
 /*
