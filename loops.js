@@ -28,20 +28,3 @@ function doWhileLoop(array) {
   } while((maybeTrue() && array.length()>0));
 return array;
 }
-
-
-
-/*
-  describe('doWhileLoop(array)', () => {
-    it('removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false`', () => {
-      const [array, t] = makeArray()
-      const l = array.length
-
-      const newArray = doWhileLoop(array)
-
-      expect(newArray).to.have.length.of.at.most(l - 1)
-    })
-  })
-})
-
-*/
